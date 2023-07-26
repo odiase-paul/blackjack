@@ -1,0 +1,63 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #016f32;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.rules-page {
+  text-align: justify;
+  font-weight: 300;
+}
+
+.inner-div {
+  max-width: 400px;
+}
+
+h1 {
+  color: goldenrod;
+}
+
+.display {
+  font-style: italic;
+  font-weight: 500;
+}
+
+button {
+  color: #016f32;
+  width: 150px;
+  background-color: goldenrod;
+  border: none;
+  padding: 5px 0 5px 0;
+  font-weight: bolder;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.new-card {
+  display: none;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.restart {
+  display: none;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.player {
+  display: none;
+}
+
+.game-card {
+  display: none;
+}
+
+@media only screen and (max-width: 319px) {
+  .yes {
+    margin-bottom: 5px;
+  }
+}
